@@ -1,0 +1,405 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1875230628921B040058328C /* KFAudioCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875230528921B040058328C /* KFAudioCaptureViewController.m */; };
+		187523092892277D0058328C /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187523082892277C0058328C /* MainTabBarViewController.m */; };
+		1877E62C2899058C00B1D89D /* KFAudioEncoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877E62B2899058C00B1D89D /* KFAudioEncoderViewController.m */; };
+		1877E63128990AB100B1D89D /* KFAudioTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877E63028990AB100B1D89D /* KFAudioTools.m */; };
+		18787398289134B800EB8BE3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 18787397289134B800EB8BE3 /* AppDelegate.m */; };
+		187873A3289134BA00EB8BE3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187873A2289134BA00EB8BE3 /* Assets.xcassets */; };
+		187873A9289134BA00EB8BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 187873A8289134BA00EB8BE3 /* main.m */; };
+		187873B128913B9C00EB8BE3 /* KFAudioConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 187873B028913B9C00EB8BE3 /* KFAudioConfig.m */; };
+		187873B428913C0A00EB8BE3 /* KFAudioCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 187873B328913C0A00EB8BE3 /* KFAudioCapture.m */; };
+		1889AAF5289CEF3F00AD9450 /* KFMuxerConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889AAF4289CEF3F00AD9450 /* KFMuxerConfig.m */; };
+		18915761289379EC00629538 /* BaseNavViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18915760289379EC00629538 /* BaseNavViewController.m */; };
+		189157642893AFF300629538 /* KFAudioEncoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 189157632893AFF300629538 /* KFAudioEncoder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1875230428921B040058328C /* KFAudioCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioCaptureViewController.h; sourceTree = "<group>"; };
+		1875230528921B040058328C /* KFAudioCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioCaptureViewController.m; sourceTree = "<group>"; };
+		187523072892277C0058328C /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
+		187523082892277C0058328C /* MainTabBarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainTabBarViewController.m; sourceTree = "<group>"; };
+		1877E62A2899058C00B1D89D /* KFAudioEncoderViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioEncoderViewController.h; sourceTree = "<group>"; };
+		1877E62B2899058C00B1D89D /* KFAudioEncoderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioEncoderViewController.m; sourceTree = "<group>"; };
+		1877E62F28990AB100B1D89D /* KFAudioTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioTools.h; sourceTree = "<group>"; };
+		1877E63028990AB100B1D89D /* KFAudioTools.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioTools.m; sourceTree = "<group>"; };
+		18787393289134B800EB8BE3 /* AudioDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AudioDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		18787396289134B800EB8BE3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		18787397289134B800EB8BE3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		187873A2289134BA00EB8BE3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		187873A7289134BA00EB8BE3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		187873A8289134BA00EB8BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		187873AF28913B9C00EB8BE3 /* KFAudioConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioConfig.h; sourceTree = "<group>"; };
+		187873B028913B9C00EB8BE3 /* KFAudioConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioConfig.m; sourceTree = "<group>"; };
+		187873B228913C0A00EB8BE3 /* KFAudioCapture.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioCapture.h; sourceTree = "<group>"; };
+		187873B328913C0A00EB8BE3 /* KFAudioCapture.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioCapture.m; sourceTree = "<group>"; };
+		1889AAF3289CEF3F00AD9450 /* KFMuxerConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFMuxerConfig.h; sourceTree = "<group>"; };
+		1889AAF4289CEF3F00AD9450 /* KFMuxerConfig.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFMuxerConfig.m; sourceTree = "<group>"; };
+		1891575F289379EC00629538 /* BaseNavViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BaseNavViewController.h; sourceTree = "<group>"; };
+		18915760289379EC00629538 /* BaseNavViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseNavViewController.m; sourceTree = "<group>"; };
+		189157622893AFF300629538 /* KFAudioEncoder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioEncoder.h; sourceTree = "<group>"; };
+		189157632893AFF300629538 /* KFAudioEncoder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioEncoder.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		18787390289134B800EB8BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1877E62D28990A4700B1D89D /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				1875230428921B040058328C /* KFAudioCaptureViewController.h */,
+				1875230528921B040058328C /* KFAudioCaptureViewController.m */,
+				1877E62A2899058C00B1D89D /* KFAudioEncoderViewController.h */,
+				1877E62B2899058C00B1D89D /* KFAudioEncoderViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		1877E62E28990A7500B1D89D /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				187873AF28913B9C00EB8BE3 /* KFAudioConfig.h */,
+				187873B028913B9C00EB8BE3 /* KFAudioConfig.m */,
+				187873B228913C0A00EB8BE3 /* KFAudioCapture.h */,
+				187873B328913C0A00EB8BE3 /* KFAudioCapture.m */,
+				189157622893AFF300629538 /* KFAudioEncoder.h */,
+				189157632893AFF300629538 /* KFAudioEncoder.m */,
+				1877E62F28990AB100B1D89D /* KFAudioTools.h */,
+				1877E63028990AB100B1D89D /* KFAudioTools.m */,
+				1889AAF3289CEF3F00AD9450 /* KFMuxerConfig.h */,
+				1889AAF4289CEF3F00AD9450 /* KFMuxerConfig.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		1878738A289134B800EB8BE3 = {
+			isa = PBXGroup;
+			children = (
+				18787395289134B800EB8BE3 /* AudioDemo */,
+				18787394289134B800EB8BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		18787394289134B800EB8BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				18787393289134B800EB8BE3 /* AudioDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		18787395289134B800EB8BE3 /* AudioDemo */ = {
+			isa = PBXGroup;
+			children = (
+				187873B528913D2D00EB8BE3 /* Audio */,
+				18787396289134B800EB8BE3 /* AppDelegate.h */,
+				18787397289134B800EB8BE3 /* AppDelegate.m */,
+				187873A2289134BA00EB8BE3 /* Assets.xcassets */,
+				187873A7289134BA00EB8BE3 /* Info.plist */,
+				187873A8289134BA00EB8BE3 /* main.m */,
+				187523072892277C0058328C /* MainTabBarViewController.h */,
+				187523082892277C0058328C /* MainTabBarViewController.m */,
+				1891575F289379EC00629538 /* BaseNavViewController.h */,
+				18915760289379EC00629538 /* BaseNavViewController.m */,
+			);
+			path = AudioDemo;
+			sourceTree = "<group>";
+		};
+		187873B528913D2D00EB8BE3 /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				1877E62E28990A7500B1D89D /* Tools */,
+				1877E62D28990A4700B1D89D /* Controller */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		18787392289134B800EB8BE3 /* AudioDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 187873AC289134BA00EB8BE3 /* Build configuration list for PBXNativeTarget "AudioDemo" */;
+			buildPhases = (
+				1878738F289134B800EB8BE3 /* Sources */,
+				18787390289134B800EB8BE3 /* Frameworks */,
+				18787391289134B800EB8BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AudioDemo;
+			productName = AudioDemo;
+			productReference = 18787393289134B800EB8BE3 /* AudioDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1878738B289134B800EB8BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					18787392289134B800EB8BE3 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 1878738E289134B800EB8BE3 /* Build configuration list for PBXProject "AudioDemo" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1878738A289134B800EB8BE3;
+			productRefGroup = 18787394289134B800EB8BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				18787392289134B800EB8BE3 /* AudioDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		18787391289134B800EB8BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187873A3289134BA00EB8BE3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1878738F289134B800EB8BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				187873B128913B9C00EB8BE3 /* KFAudioConfig.m in Sources */,
+				189157642893AFF300629538 /* KFAudioEncoder.m in Sources */,
+				18915761289379EC00629538 /* BaseNavViewController.m in Sources */,
+				18787398289134B800EB8BE3 /* AppDelegate.m in Sources */,
+				187873A9289134BA00EB8BE3 /* main.m in Sources */,
+				1877E62C2899058C00B1D89D /* KFAudioEncoderViewController.m in Sources */,
+				1889AAF5289CEF3F00AD9450 /* KFMuxerConfig.m in Sources */,
+				1875230628921B040058328C /* KFAudioCaptureViewController.m in Sources */,
+				187523092892277D0058328C /* MainTabBarViewController.m in Sources */,
+				1877E63128990AB100B1D89D /* KFAudioTools.m in Sources */,
+				187873B428913C0A00EB8BE3 /* KFAudioCapture.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		187873AA289134BA00EB8BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		187873AB289134BA00EB8BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		187873AD289134BA00EB8BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2QTJ78LG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.AudioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		187873AE289134BA00EB8BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = F2QTJ78LG3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AudioDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Test.AudioDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1878738E289134B800EB8BE3 /* Build configuration list for PBXProject "AudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187873AA289134BA00EB8BE3 /* Debug */,
+				187873AB289134BA00EB8BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		187873AC289134BA00EB8BE3 /* Build configuration list for PBXNativeTarget "AudioDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				187873AD289134BA00EB8BE3 /* Debug */,
+				187873AE289134BA00EB8BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1878738B289134B800EB8BE3 /* Project object */;
+}
