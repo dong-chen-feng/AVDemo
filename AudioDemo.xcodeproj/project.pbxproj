@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		184D2EF228A0E2200021FD91 /* KFMP4Muxer.m in Sources */ = {isa = PBXBuildFile; fileRef = 184D2EF128A0E21F0021FD91 /* KFMP4Muxer.m */; };
 		1875230628921B040058328C /* KFAudioCaptureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875230528921B040058328C /* KFAudioCaptureViewController.m */; };
 		187523092892277D0058328C /* MainTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 187523082892277C0058328C /* MainTabBarViewController.m */; };
 		1877E62C2899058C00B1D89D /* KFAudioEncoderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1877E62B2899058C00B1D89D /* KFAudioEncoderViewController.m */; };
@@ -22,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		184D2EEF28A0E0490021FD91 /* KFMediaBase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFMediaBase.h; sourceTree = "<group>"; };
+		184D2EF028A0E21F0021FD91 /* KFMP4Muxer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFMP4Muxer.h; sourceTree = "<group>"; };
+		184D2EF128A0E21F0021FD91 /* KFMP4Muxer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFMP4Muxer.m; sourceTree = "<group>"; };
 		1875230428921B040058328C /* KFAudioCaptureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KFAudioCaptureViewController.h; sourceTree = "<group>"; };
 		1875230528921B040058328C /* KFAudioCaptureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KFAudioCaptureViewController.m; sourceTree = "<group>"; };
 		187523072892277C0058328C /* MainTabBarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainTabBarViewController.h; sourceTree = "<group>"; };
@@ -83,6 +87,9 @@
 				1877E63028990AB100B1D89D /* KFAudioTools.m */,
 				1889AAF3289CEF3F00AD9450 /* KFMuxerConfig.h */,
 				1889AAF4289CEF3F00AD9450 /* KFMuxerConfig.m */,
+				184D2EEF28A0E0490021FD91 /* KFMediaBase.h */,
+				184D2EF028A0E21F0021FD91 /* KFMP4Muxer.h */,
+				184D2EF128A0E21F0021FD91 /* KFMP4Muxer.m */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -203,6 +210,7 @@
 				18787398289134B800EB8BE3 /* AppDelegate.m in Sources */,
 				187873A9289134BA00EB8BE3 /* main.m in Sources */,
 				1877E62C2899058C00B1D89D /* KFAudioEncoderViewController.m in Sources */,
+				184D2EF228A0E2200021FD91 /* KFMP4Muxer.m in Sources */,
 				1889AAF5289CEF3F00AD9450 /* KFMuxerConfig.m in Sources */,
 				1875230628921B040058328C /* KFAudioCaptureViewController.m in Sources */,
 				187523092892277D0058328C /* MainTabBarViewController.m in Sources */,
