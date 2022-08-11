@@ -8,6 +8,7 @@
 #import "AppDelegate.h"
 #import "KFAudioEncoderViewController.h"
 #import "BaseNavViewController.h"
+#import "KFAudioCaptureViewController.h"
 
 @interface AppDelegate ()
 
@@ -20,7 +21,7 @@
     // Override point for customization after application launch.
     self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
     self.window.backgroundColor = UIColor.lightGrayColor;
-    BaseNavViewController *nav = [[BaseNavViewController alloc] initWithRootViewController:[KFAudioEncoderViewController new]];
+    BaseNavViewController *nav = [[BaseNavViewController alloc] initWithRootViewController:[KFAudioCaptureViewController new]];
     self.window.rootViewController = nav;
     [self.window makeKeyAndVisible];
     return YES;
